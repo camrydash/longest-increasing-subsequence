@@ -4,8 +4,7 @@
 
 ###Solution:
 
-
-If we want to find the Longest Increasing Sequence of an array, one possibility is that we try to compute all the different subsequences on `n` elements. Since there are `2n` such sequences, it is not practical to solve using brute-force technique because `O(2n)`` is not acceptable.
+If we want to find the Longest Increasing Sequence of an array, one possibility is that we try to compute all the different subsequences on `n` elements. Since there are 2<sup>n</sup> such sequences, it is not practical to solve using brute-force technique because O(2<sup>n</sup>) is not acceptable.
 
 The other approach is Dynamic Programming. We build our way towards the solution, as we traverse through the array.
 
