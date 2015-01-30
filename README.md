@@ -12,7 +12,7 @@ The other approach is Dynamic Programming. We build our way towards the solution
 Consider the following example where `A = {11, 17, 5, 8, 6, 7, 12, 3}`
 
 **i** | 0 | 1| 2 | 3 | 4 | 5 | 6 | 7 | 8
------------- | -------------
+---|---|---|---|---|---|---|---|---|---|
 **LIS[i]** | 1 | 2 | 1 | 2 | 2 | 1 | 3 | 4 | 1
 **A[i]** | 11 | 17 | 5 | 8 | 6 | 4 | 7 | 12 | 3
 
@@ -24,7 +24,8 @@ Instead of solving LIS at every index, we can use the solution of the previous s
 
 We can represent the recurrence of our solution as,
 > `LIS[i] = 1`
-`LIS[i] = 1 + Max(L[j])`, `array[j] < array[i] ; j < i; j ≥ 0`
+
+>`LIS[i] = 1 + Max(L[j])`, `array[j] < array[i] ; j < i; j ≥ 0`
 
 If we continue this process, we will have maintained LIS for every index `(i)`. Although this determines the max length of LIS, it does not help us to determine the longest increasing subsequence.
 
