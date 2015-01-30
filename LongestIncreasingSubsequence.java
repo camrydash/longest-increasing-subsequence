@@ -2,11 +2,6 @@
 // Author: Danyal Isran
 // Title: Longest Increasing Subsequence
 // Email: danyal.isran@gmail.com
-// Course: COMP620 FALL 2014
-// Professor: Lin Chui
-// Project: 1
-//
-// Executable filename: LongestIncreasingSubsequence.java 
 //
 // Instructions:
 // =======================================================================
