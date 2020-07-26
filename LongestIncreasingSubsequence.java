@@ -1,7 +1,4 @@
 // =======================================================================
-// Author: Danyal Isran
-// Title: Longest Increasing Subsequence
-// Email: danyal.isran@gmail.com
 //
 // Instructions:
 // =======================================================================
